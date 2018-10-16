@@ -10,23 +10,16 @@
 
 1.运行mybatis-generator-gui.jar启动程序
 
-
-
 2.点击数据库链接，输入数据库链接配置
-
-
 
 3.双击链接数据库，并选择要构建的表
 
-
-
 4.选择项目所在目录，输入实体类、Mapper接口等文件的包名与存放目录会生成文件至指定的目录下。
-
-
 
 5.勿取消“DAO方法抽出到公共父接口”与“DAO使用@Repository注解”的选项，会导致DAO层不可用
 
-
-
 6.ftl目录下为service与contriller的模板文件，可根据需要进行修改
 
+7.service文件夹下为为service的基础实现
+
+8.generatorConfig.properties中可配置模板路径与注释信息
