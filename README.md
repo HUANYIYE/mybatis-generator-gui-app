@@ -8,13 +8,6 @@
 要求
 本工具由于使用了Java 8的众多特性，所以要求JDK 1.8.0.60以上版本，另外JDK 1.9暂时还不支持。
 
- 
-
-工具下载地址：
-https://github.com/HUANYIYE/mybatis-generator-gui-app.git
-
-
-
 1.运行mybatis-generator-gui.jar启动程序
 
 
