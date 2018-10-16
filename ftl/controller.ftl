@@ -4,6 +4,8 @@ import ${servicePackage}.service.${modelNameUpperCamel}Service;
 import ${servicePackage}.bean.${modelNameUpperCamel}Example;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,8 @@ import java.util.List;
  */
 @RestController
 public class ${modelNameUpperCamel}Controller {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     ${modelNameUpperCamel}Service ${modelNameLowerCamel}Service;
