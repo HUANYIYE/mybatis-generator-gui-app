@@ -1,5 +1,8 @@
 # mybatis-generator-gui-app
 自动化构建工具
+
+原：https://github.com/zouzg/mybatis-generator-gui.git
+
 简介
 基于mybatis generator开发一款界面工具, 本工具可以使你非常容易及快速生成Mybatis的Java POJO文件及数据库Mapping文件。
 
